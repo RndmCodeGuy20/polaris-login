@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #080A17;
+}
+
+.container{
+    background: transparent;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: -20px;
+    background: #080a17;
+    color: #fff;
+}
+
+footer hr {
+    width: 90%;
+    background-color: #fff;
+    height: 4px;
+    margin-left: 5%;
+    margin-bottom: 140px;
+}
+footer p {
+    height: auto;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 50px;
+}
+footer .header {
+    margin-top: 20px;
+    margin-bottom: -35px;
+    font-size: x-large;
+}
+footer .header1 {
+    font-size: medium;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer img {
+    height: 32px;
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+footer img{
+    height: 46px;
+    width: 46px;
+}
+
+.sign-in-image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 29.5vh;
+    bottom: 0;
+    margin: auto;
+    fill: #1B1C24;
+    z-index: 100;
+    transform: scale(.7);
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.sign-in-image:hover{
+    transform: scale(.65);
+}
+.sign-in-image:active{
+    transform: scale(.6);
+}
